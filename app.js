@@ -8,6 +8,8 @@ function translateURL(text) {
   return serverURL + "?" + "text=" + text;
 }
 
+// this is just a comment
+
 function errorHandler(error) {
   console.log("error occured", error);
   alert("something wrong with server! try again after some time");
